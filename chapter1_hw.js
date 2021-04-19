@@ -1,5 +1,6 @@
 //1
-let message = "Coding is great", studentCount = 22;
+let message = "Coding is great";
+let studentCount = 22;
 console.log(message,'\n', studentCount);
 studentCount++;
 console.log(message.toLowerCase(),'\n', studentCount);
