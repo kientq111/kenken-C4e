@@ -51,8 +51,8 @@ else {
 //5
 let username = prompt("Enter username: ");
 let password = prompt("Enter password: ");
-if (username == "mindx" && password == "codethechange") {
-    alert("Login successful!");
+if (username != "mindx" && password != "codethechange") {
+    alert("account does not exist!");
 }
 else if (username != "mindx" && password == "codethechange") {
     alert("account does not exist! ");
@@ -61,5 +61,5 @@ else if (username == "mindx" && password != "codethechange") {
     alert("Wrong password!");
 }
 else {
-    alert("account does not exist! ");
+    alert("Login Successful!");
 }
