@@ -88,7 +88,7 @@ alert(upperName);
 //6
 let rawArrNumInput = prompt("Enter array, Seprate by ',' :");
 let arrNum = rawArrNumInput.split(',').map(Number);
-let oddArrNum = arrNum.filter((oddNum) => oddNum % 2);
+let oddArrNum = arrNum.filter((oddNum) => oddNum % 2 !== 0);
 alert(`odd number in array are ${oddArrNum}`);
 
 
