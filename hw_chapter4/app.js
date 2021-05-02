@@ -29,11 +29,15 @@ for (let x in product) {
 }
 //3
 let products = [
-    { name: 'Xiaomi portable charger 20000mah', brand: 'Xiaomi', price: 480, color: 'White', category: 'charger', provides: ['phukienzero', 'dientuccc'] },
-    { name: 'VSmart Active 1', brand: 'VSmart', price: 5487, color: 'Black', category: 'phone', provides: ['tgdd', 'ddghn', 'vhStore'] },
-    { name: 'IPhone X', brand: 'Apple', price: 21490, color: 'Gray', category: 'phone', provides: ['tgdd'] },
-    { name: 'Samsung galaxy S10', brand: 'Samsung', price: 8490, color: '8490', category: 'phone', provides: ['tgdd'] }
+    { name: 'Xiaomi portable charger 20000mah', brand: 'Xiaomi', price: 480, color: 'White', category: 'charger' },
+    { name: 'VSmart Active 1', brand: 'VSmart', price: 5487, color: 'Black', category: 'phone' },
+    { name: 'IPhone X', brand: 'Apple', price: 21490, color: 'Gray', category: 'phone' },
+    { name: 'Samsung galaxy S10', brand: 'Samsung', price: 8490, color: '8490', category: 'phone' }
 ]
+products[0].provides = ['phukienzero', 'dientuccc'];
+products[1].provides = ['tgdd', 'ddghn', 'vhStore'];
+products[2].provides = ['tgdd'];
+products[3].provides = ['tgdd'];
 
 let getPosProductInput = prompt("Enter Product Position: ");
 console.log(`Position of ${getPosProductInput} is: `, products[getPosProductInput]);
