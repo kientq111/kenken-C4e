@@ -94,6 +94,7 @@
 //     let pos = Number(prompt("input index u want to delete"));
 //     delete staffs[pos];
 // }
+
 //5
 let dateInput = prompt("Input date to check validate");
 if (isValidDate(dateInput) === false) {
