@@ -1,0 +1,9 @@
+.item{
+    font-size: 18px;
+}
+
+div.item span:last-child{
+font-size: 10px;
+font-style: italic;
+}
+

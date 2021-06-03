@@ -1,0 +1,25 @@
+div {
+    font-size: 3em;
+    background: wheat
+  }
+
+#div1 {
+    color: black;
+    background: white;
+  }
+
+#div2 {
+    color: blue;
+    background: white;
+      }
+
+ a[target=_blank] {
+    color: #ECDC4C;
+   }
+
+ul>li {
+    font-weight: bold;
+   }
+
+
+
