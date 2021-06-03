@@ -93,6 +93,14 @@ function deleteStaff() {
     delete staffs[pos];
 }
 
+<<<<<<< HEAD
+=======
+// function deleteStaff() {
+//     let pos = Number(prompt("input index u want to delete"));
+//     delete staffs[pos];
+// }
+
+>>>>>>> f3924769834164860a73bd3616a40b83c8302f77
 //5
 let dateInput = prompt("Input date to check validate");
 if (isValidDate(dateInput) === false) {
