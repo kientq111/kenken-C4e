@@ -1,0 +1,14 @@
+.flex-pos {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pos {
+    position: absolute;
+    top: 200px;
+} 
+
+
